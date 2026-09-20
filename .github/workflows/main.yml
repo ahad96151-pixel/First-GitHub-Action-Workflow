@@ -1,14 +1,14 @@
-name: Ahad khan
+name: Hello Workflow
 
 on:
-    push:
-      branches:[main]
+  push:
+    branches: [main]
 
 jobs:
   demo:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-     - name:Greetings
-       run:echo "Hello From Nalka ada"
+      - name: Greetings
+        run: echo "Hello From Nalka ada"
     
